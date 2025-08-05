@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 
 @Service
 public class CarServiceImpl implements CarService {
+    
     private static final Logger log = LoggerFactory.getLogger(CarServiceImpl.class);
     private final List<Car> cars;
 
